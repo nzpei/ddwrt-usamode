@@ -5,6 +5,7 @@ USA Mode Web UI for DD-WRT Routers
 
 ddwrt-usamode allows you to control whether you wish to pretend to be in the USA or not on a per-device basis.
 This is achieved by adding custom routes for each client on the network that wishes to be routed down the VPN.
+Of course, instead of pretending you're in the USA this could be used to toggle connectivity via any OpenVPN tunnel.
 
 Author: Pei Huang
 Date: 9/Jan/2013; Published to Github 7/Feb/2013
@@ -12,7 +13,7 @@ Date: 9/Jan/2013; Published to Github 7/Feb/2013
 Prerequisites:
 - Modern DD-WRT Router (i.e. BCM47XX chipset, such as Asus RT-N16) 
 - DD-WRT version with OpenVPN
-- Pre-configured VPN connection with StrongVPN or another provider - assumes tun device is "tun0" and that the tunnel is established on boot
+- Pre-configured VPN connection with StrongVPN or another provider - assumes tun device is "tun0" and that the tunnel is established on boot, set up and working on the router per the provider's instructions
 - JFFS support on the router
 
 Install Guide:
